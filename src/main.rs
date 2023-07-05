@@ -12,7 +12,7 @@ fn encrypt(text: &str, shift: i16) -> String {
         result.push((code as u8) as char);
     }
 
-    return result;
+    result
 }
 
 fn main() {
